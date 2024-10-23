@@ -34,5 +34,13 @@ namespace konsolowa
             }
             return albumDatas;
         }
+
+        public void DisplyAlbumData(List<AlbumData> albums)
+        {
+            foreach(var  album in albums)
+            {
+                Console.WriteLine($"\n {album.artist}, \n {album.album}, \n {album.songsNumber}, \n {album.year}, \n {album.dowlandNumber}");
+            }
+        }
     }
 }
