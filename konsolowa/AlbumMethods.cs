@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,6 +35,14 @@ namespace konsolowa
             }
             return albumDatas;
         }
+
+        /***********************************************
+        nazwa funkcji: DisplyAlbumData
+        opis funkcji: funkcja wyświetla dane pobrane z pliku
+        parametry: lista typu strukturalnego              
+        zwracany typ i opis: brak
+        autor: Piotr Sroka
+        **********************************************/
 
         public void DisplyAlbumData(List<AlbumData> albums)
         {

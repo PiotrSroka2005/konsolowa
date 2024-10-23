@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            
+            AlbumMethods album = new AlbumMethods();
+
+            album.DisplyAlbumData(album.GetDataFromFile());
         }
     }
 }
